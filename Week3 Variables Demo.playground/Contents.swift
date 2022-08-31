@@ -25,5 +25,3 @@ if total_workhours >= target{
 else{
     print("you worked \(total_workhours), not as good pay week")
 }
-
-print("money")
