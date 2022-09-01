@@ -14,6 +14,7 @@ var friday = 0.0
 
 var saturday = 6.0
 
+
 var sunday = 6.0
 
 var total_workhours = monday + tuesday + wednesday + thursday + friday + saturday + sunday
