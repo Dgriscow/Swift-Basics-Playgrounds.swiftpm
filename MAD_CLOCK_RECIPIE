@@ -1,0 +1,26 @@
+MAD Clock Recipe/logic layout 
+
+
+Variables needed: 
+Hours, Minutes, Seconds 
+Constants Needed: 
+Boolean statement (while loop will activate while the statement is true. 
+An initial value for real life time, a constant that links hours and a constant that links minutes (research required) 
+
+
+Loop Logic: 
+
+While bool is true {
+Sleep (1) - if its similar to python then this should pause the program for just one second
+ Seconds += 1 <this will add one to the second variable 
+<seconds to minutes logic>
+If seconds >= 60 {
+	Minutes += 1
+	Seconds = 0 < resetting the seconds to 0, because 60 secs = 1 min 
+} 
+Else if minutes >= 60{
+	hours += 1 
+	minutes = 0	<reset minutes to zero after adding one to hours 
+}
+Print(hours + minutes + seconds) <combine them all to print in a single statement, but make sure to separate each variable with a :. 
+	
