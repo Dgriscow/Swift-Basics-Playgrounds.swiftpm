@@ -2,9 +2,6 @@ import UIKit
 
 
 
-
-
-
 let date = Date()
 let calender = Calendar.current
 let hour_start = calender.component(.hour, from: date)
@@ -26,3 +23,7 @@ while clockStatement{
     }
     print("\(hours):\(minutes):\(seconds)")
     }
+
+
+
+
